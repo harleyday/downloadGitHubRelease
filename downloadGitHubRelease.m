@@ -14,7 +14,7 @@ addOptional ( p, 'token', [], @(x) length(x)==40 ); % GitHub API tokens are 40 c
 
 addOptional ( p, 'install', false, @(x) assert(islogical(x), '''install'', must be a logical value.') );
 
-addOptional ( p, 'overwrite', true, @(x) assert(islogical(x), '''overwrite'', must be a logical value.')  );
+addOptional ( p, 'overwrite', false, @(x) assert(islogical(x), '''overwrite'', must be a logical value.')  );
 
 parse ( p, repository, varargin{:} );
 
