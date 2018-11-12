@@ -21,7 +21,7 @@ downloadGitHubRelease ( 'USERNAME/REPO', 'version_id_OR_latest', 'token', PERSON
 Three name-value pairs exist as optional additional arguments:
 - **`'token'`:** Use this to provide a [personal access token](https://github.com/settings/tokens) as a string if you're downloading from a private repository.
 - **`'install'`:** true/false value (`false` by default) to specify if you wish to immediately install the MATLAB toolbox you download.
-- **`'overwrite'`:** true/false value (`true` by default) to specify if you wish to overwrite files by the same name in the current directory.
+- **`'overwrite'`:** true/false value (`false` by default) to specify if you wish to overwrite files by the same name in the current directory.
 
 ## Examples
 
