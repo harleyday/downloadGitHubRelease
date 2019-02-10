@@ -1,4 +1,5 @@
-# MATLAB-GitHub-release-download
+# downloadGitHubRelease
+
 A function which allows you to easily download MATLAB toolbox releases from GitHub repositories using the GitHub REST API v3
 
 The function specifically looks for assets with the file extension ".mltbx" to download.
