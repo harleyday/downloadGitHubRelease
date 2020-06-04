@@ -1,6 +1,6 @@
 # downloadGitHubRelease
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8f178489c803497697f41941752573cb)](https://app.codacy.com/app/harleyday/downloadGitHubRelease?utm_source=github.com&utm_medium=referral&utm_content=harleyday/downloadGitHubRelease&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dcc9401d9df941a39cf7ea7792174af4)](https://www.codacy.com/manual/harleyday/downloadGitHubRelease?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=harleyday/downloadGitHubRelease&amp;utm_campaign=Badge_Grade)
 
 ## A function which allows you to easily download MATLAB toolbox releases from GitHub repositories using the GitHub REST API v3
 
