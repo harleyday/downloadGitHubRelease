@@ -47,11 +47,27 @@ Completed download.
 * * *
 
 ```MATLAB
-downloadGitHubRelease ( 'harleyday/logicleTransform.m', 'v1.0' );
+downloadGitHubRelease ( 'harleyday/logicleTransform.m', 'v1.0', 'overwrite', true );
 ```
 
 ```HTML
 Overwriting logicleTransform.m.mltbx already in this directory.
 Downloading version v1.0.
 Completed download.
+```
+
+* * *
+
+```MATLAB
+downloadGitHubRelease ( 'harleyday/logicleTransform.m', 'install', true );
+```
+
+```HTML
+We'll get the latest release
+Downloading version latest.
+Completed download.
+Installing the toolbox...
+       Name: 'logicleTransform'
+    Version: '1.3'
+       Guid: 'f502930c-83bc-4a63-afac-628ea66d61ec'
 ```
